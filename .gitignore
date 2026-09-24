@@ -1,0 +1,20 @@
+target/
+dbt_packages/
+logs/
+.env
+
+# Python virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# dbt credentials (never commit)
+profiles.yml
+
+# Snowflake keys
+*.p8
+*.pub
+*.pem
+
+# OS junk
+.DS_Store
